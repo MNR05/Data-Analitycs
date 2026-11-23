@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+# IDE and secrets
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+# Raw datasets are downloaded separately; never commit customer data
+projects/ecommerce-analytics/data/raw/*.csv
+projects/ecommerce-analytics/data/raw/*.parquet
+projects/ecommerce-analytics/data/raw/*.xlsx
+# Generated reports
+*.sqlite
+*.db
+.DS_Store
